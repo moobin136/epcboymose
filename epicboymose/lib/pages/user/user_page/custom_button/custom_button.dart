@@ -11,7 +11,7 @@ class CustomButton extends StatelessWidget {
     this.textColor,
     this.height,
     this.width,
-    this.bgColor
+    this.bgColor,
   });
   // VoidCallbackAction onTab;
   String text;
@@ -33,7 +33,7 @@ class CustomButton extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(21),
           border: Border.all(
-            color: boderColor ?? Color.fromRGBO(79, 209, 197, 1),
+            color: boderColor ?? Color.fromRGBO(14, 116, 105, 1),
             width: boderWidth ?? 1,
           ),
           color: bgColor ?? Color.fromRGBO(79, 209, 197, 1).withOpacity(0.08),
@@ -42,7 +42,7 @@ class CustomButton extends StatelessWidget {
           child: Text(
             text,
             style: TextStyle(
-              color: textColor ?? Color.fromRGBO(79, 209, 197, 1),
+              color: textColor ?? Color.fromRGBO(14, 116, 105, 1),
               fontSize: 20,
             ),
           ),

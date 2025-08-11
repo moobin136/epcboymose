@@ -44,10 +44,7 @@ class UserPage extends StatelessWidget {
               const SizedBox(height: 15),
               Text(
                 'Choose Your Specific Role',
-                style: TextStyle(
-                  fontSize: 13,
-                  color: Color.fromARGB(30, 33, 33, 202),
-                ),
+                style: TextStyle(fontSize: 13, color: Colors.black),
               ),
               const SizedBox(height: 32),
               CustomButton(text: 'User', onTab: () {}),

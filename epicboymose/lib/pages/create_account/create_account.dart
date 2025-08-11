@@ -26,7 +26,11 @@ class CreateAccount extends StatelessWidget {
               const SizedBox(height: 13),
               Text(
                 'Create An Account',
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
               ),
 
               Text(
@@ -35,7 +39,7 @@ class CreateAccount extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black26,
+                  color: const Color.fromARGB(255, 105, 105, 105),
                 ),
               ),
               const SizedBox(height: 16),

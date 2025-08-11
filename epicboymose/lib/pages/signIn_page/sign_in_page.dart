@@ -28,7 +28,11 @@ class SignInPage extends StatelessWidget {
               const SizedBox(height: 13),
               Text(
                 'Sign In Account',
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
               ),
 
               Text(
@@ -37,7 +41,7 @@ class SignInPage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black26,
+                  color: Colors.black.withOpacity(0.5),
                 ),
               ),
               const SizedBox(height: 16),
